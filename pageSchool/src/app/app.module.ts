@@ -10,13 +10,17 @@ import { TeacherComponent } from './teacher/teacher.component';
 import { MaterialModule } from './material';
 import { ContainerComponent } from './container/container.component';
 import { HomeComponent } from './home/home.component';
+import { JustificacionComponent } from './justificacion/justificacion.component';
+import { MallaComponent } from './malla/malla.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TeacherComponent,
     ContainerComponent,
-    HomeComponent
+    HomeComponent,
+    JustificacionComponent,
+    MallaComponent
   ],
   imports: [
     BrowserModule,
